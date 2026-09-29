@@ -1,0 +1,5 @@
+ShadComm Virtual Shop — REV 31
+- Fixed Quote Builder error: money is not defined.
+- Restored one canonical CAD currency formatting helper.
+- Rechecked quote creation API and app/API startup.
+- Rechecked all button/event handlers and JavaScript syntax.

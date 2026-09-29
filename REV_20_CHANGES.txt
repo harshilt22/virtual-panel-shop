@@ -1,0 +1,22 @@
+SHADCOMM VIRTUAL SHOP — REV 20
+
+PURCHASER FULFILLMENT WORKFLOW
+1. SHOP SUPPLIES
+   - Arranged from somewhere else.
+   - Does NOT use or reduce Shop Inventory.
+2. FROM SHOP (INVENTORY)
+   - Uses physical Shop Inventory.
+   - Reduces Inventory.
+   - Creates/updates Job Materials allocation for Receiver.
+3. ORDER
+   - Remaining quantity that still needs vendor purchasing.
+   - Order Qty = Required Qty - Shop Supplies - From Shop.
+
+RELEASE / ORDERING
+- Released Designer BOM remains unchanged.
+- Purchaser can add purchasing-only extras from Digital Library.
+- Release to Ordering creates a Job-number ordering sheet only for Order quantities.
+- Purchaser assigns vendors to order items.
+- Purchaser marks Ordering Complete only after vendor assignment.
+- Purchaser then Releases to Receiver.
+- Receiver only sees released vendor orders and can update Received Qty and notes.

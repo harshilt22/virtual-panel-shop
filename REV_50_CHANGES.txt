@@ -1,0 +1,7 @@
+SHADCOMM VIRTUAL SHOP — REV 50
+
+- Datasheets are now linked by Part Number so the same product automatically reuses its saved PDF across future projects.
+- Added View PDF buttons to Digital Library product cards so users can open attached technical datasheets directly.
+- Renamed the BOM datasheet action to Export Shop Drawings.
+- Export Shop Drawings automatically packages all unique PDFs already attached to the products in the BOM.
+- The Designer only needs to attach a product datasheet once; future BOMs reuse the Digital Library attachment.

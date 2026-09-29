@@ -1,0 +1,26 @@
+ShadComm Virtual Shop — REV 64 Installation
+
+Replace only these application files:
+
+- index.html
+- server.js
+
+Keep your existing files unchanged:
+
+- shop-data.json
+- history\
+- shop-drawings\
+- START VIRTUAL SHOP.bat
+- STOP VIRTUAL SHOP.bat
+
+After replacing the two application files, start the shop normally.
+
+When the Purchaser opens a released Job, the system will rebuild stale non-extra purchasing lines from the current BOM. Any line intentionally added during purchasing is retained and marked "Purchasing Extra — not in Designer BOM".
+
+To release a job, use:
+
+1. BOMs / Job Purchasing
+2. Select the Job
+3. Save Job Plan or Release Combined Job to Ordering
+
+The release action will create or update the one combined Ordering Sheet for that Job.

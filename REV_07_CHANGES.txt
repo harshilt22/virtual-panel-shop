@@ -1,0 +1,21 @@
+ShadComm Virtual Shop - REV 07
+
+INVENTORY UPDATES
+- Added "+ Add from Digital Library" inside Shop Inventory.
+- Receiver, Buyer and Admin can search Digital Library by description, maker, part number or previous job number.
+- Selected library product can be added to physical inventory with quantity and shelf/location.
+- If the product already exists in inventory, the entered quantity is added to current stock instead of creating a duplicate.
+
+EXCEL INVENTORY IMPORT
+- Added "Import Inventory Excel" inside Shop Inventory.
+- Supports .xlsx, .xls and .csv.
+- Recognizes common columns including Description, Maker, Part Number, Quantity/Qty and Location/Shelf/Bin.
+- Existing inventory Part Numbers are updated by adding imported quantity.
+- New Part Numbers create new inventory records.
+- If Description or Maker is missing from Excel, the Digital Library record is used when available.
+- Import preview allows quantity/location review before committing.
+
+IMPORTANT
+- Digital Library and Shop Inventory remain separate concepts.
+- Adding/importing inventory does not change Quote or BOM quantities.
+- Keep your existing shop-data.json when upgrading.

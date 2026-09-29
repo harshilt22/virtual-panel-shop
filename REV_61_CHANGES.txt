@@ -1,0 +1,14 @@
+REV 61 — Vendor assignment synchronization
+
+Vendor Management
+
+• When a Maker is assigned to a vendor, every matching Digital Library product is automatically updated to that vendor.
+• This works when creating a new vendor and when editing an existing vendor.
+• Maker matching is case-insensitive and uses the product Maker field.
+• When a Maker is removed from an edited vendor, products that were assigned to that vendor through the previous mapping are cleared so they do not keep a stale vendor.
+• Product-level vendor assignments remain editable from the Digital Library.
+• The Vendor save confirmation reports how many Digital Library products were updated or cleared.
+
+Data protection
+
+This is a code-only revision. It does not include or replace shop-data.json, history, or shop-drawings.

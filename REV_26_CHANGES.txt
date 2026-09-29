@@ -1,0 +1,12 @@
+ShadComm Virtual Shop — REV 26
+- Notifications now fire at each workflow handoff:
+  Quote -> Designer
+  Design/BOM -> Purchaser
+  Purchasing Plan -> Ordering
+  Ordering -> Receiver
+  Receiving Complete -> Purchaser
+- Job stage is computed from actual Quote/BOM/Order/Receiving status.
+- Receiver initials are stored per product line, not once per order.
+- Engineering/service rates are prefilled from Admin defaults when quoting.
+- Quote user may edit the engineering/service rate for that individual quote.
+- Admin remains able to edit the default engineering/service rate and markup.

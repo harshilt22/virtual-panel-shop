@@ -1,0 +1,7 @@
+ShadComm Virtual Shop - REV 35
+- Awarding a Quote now asks the Estimator to enter the actual Job Number.
+- Quote is not transferred until a Job Number is entered.
+- Entered Job Number becomes the permanent downstream Job Number for Designer BOM, Purchasing, Ordering, Receiving and Job Explorer.
+- Warns if that Job Number already exists in BOMs.
+- Prevents awarding the same quote twice.
+- Existing working REV 34 export/report functionality retained.

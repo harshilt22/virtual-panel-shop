@@ -1,0 +1,17 @@
+REV 60 — Vendor price request workflow
+
+Digital Library (Admin and Purchaser)
+
+• Added Export Vendor Price List.
+• The export is one Excel workbook with a Vendor Summary sheet and a separate worksheet for each preferred vendor.
+• Products without a preferred vendor are placed on an Unassigned worksheet. Legacy/unregistered vendor labels are preserved as their own worksheet so their prices can still be requested.
+• Each vendor worksheet includes Product Description, Maker, Part Number, ratings, current library price, a blank New Vendor Unit Price column, Currency, and Vendor Notes.
+• Added Import Vendor Prices.
+• Returned workbooks are reviewed before saving. Blank, invalid, unmatched, and ambiguous rows are excluded automatically.
+• Valid prices are matched by Maker + Part Number and saved to the Digital Library price field.
+• If the returned vendor name matches a registered vendor, the product preferred vendor is saved using the registered vendor name. Unregistered vendor labels do not create new vendors.
+• Existing quote/BOM/order/receiving records and shop drawings are not rewritten by this import.
+
+Data protection
+
+This is a code-only revision. It does not include or replace shop-data.json, history, or shop-drawings.

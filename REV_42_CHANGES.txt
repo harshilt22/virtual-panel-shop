@@ -1,0 +1,46 @@
+ShadComm Virtual Shop - REV 42
+
+MAJOR WORKFLOW UPDATE
+
+1. PRE-AWARD QUOTE PROJECTS
+- Quotes no longer require a Job Number before award.
+- Added Quote Project / Opportunity grouping.
+- Added Panel / Package Name to Quotes.
+- Multiple panel quotes can belong to the same Quote Project.
+- Estimator marks a quote as Customer Awarded; this no longer creates a Job Number automatically.
+
+2. ADMIN-ONLY JOB NUMBER ASSIGNMENT
+- Only Admin assigns the real Job Number after customer award.
+- Admin can select one or multiple awarded panel quotes from the same Quote Project and attach them to one Job Number.
+- Each selected panel quote creates its own Designer BOM under the same Job.
+- Designer can create additional BOMs only under an existing Admin-assigned Job Number.
+- Existing REV 41 safe Edit Job Number function remains available.
+
+3. MULTI-PANEL / MULTI-BOM JOB STRUCTURE
+- One Job can contain multiple Panel / Package BOMs such as MCP, PLC, Remote HMI, etc.
+- Designer BOMs remain separate because each BOM represents its own drawing/panel.
+- Purchaser sees one combined Job Purchasing workspace containing all released BOMs for that Job.
+- Each BOM can keep its own identical-panel purchasing multiplier without changing Designer BOM quantities.
+
+4. ONE COMBINED ORDERING / RECEIVING SHEET PER JOB
+- Releasing Job Purchasing builds one combined Ordering Sheet for the Job.
+- Material lines retain Panel Name and Source BOM for traceability.
+- Existing vendor/receiving values are preserved when the combined Job order is rebuilt.
+- Late Designer BOM changes continue syncing into the same combined Job order.
+- A completed receiving record reopens to Partially Received automatically if a later BOM change adds outstanding material.
+
+5. MAKER -> VENDOR AUTOMATION
+- Vendor records can now be assigned to multiple Makers selected directly from Makers found in the Digital Library.
+- When a combined Ordering Sheet is created, Vendor is automatically pre-filled from the material Maker.
+- Purchaser can still manually override the Vendor for any ordering line.
+- Vendor page shows all Digital Library Makers that do not yet have a Vendor assignment.
+- Adding a product with a new unmapped Maker creates Vendor notifications for Purchaser and Admin.
+
+6. RECEIVER VENDOR FILTER
+- Receiver now sees one Receiving entry per Job.
+- Receiver selects the Job, then selects the Vendor shown on the packing/receiving slip.
+- Only that Vendor's ordered items are displayed.
+- Receiving rows retain Panel / Package information so material can still be traced to the correct panel.
+- Received quantity, initials, and receiving slip/note are saved on each item.
+
+All prior REV 41 files and major workflow features are preserved.

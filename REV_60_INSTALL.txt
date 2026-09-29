@@ -1,0 +1,18 @@
+REV 60 — Code-only installation
+
+1. Stop the current Virtual Shop server.
+2. Make a backup copy of the existing application folder.
+3. Copy the REV 60 index.html and server.js into the existing application folder and replace only those two files.
+4. Keep the existing shop-data.json, history folder, shop-drawings folder, and your existing start/stop files.
+5. Start the server normally.
+
+Vendor pricing workflow
+
+1. Enter as Admin or Purchaser and open Digital Library.
+2. Select Export Vendor Price List.
+3. Send each vendor their worksheet from the workbook.
+4. Ask the vendor to fill New Vendor Unit Price. They may also correct the Vendor field using a registered vendor name.
+5. Select Import Vendor Prices and choose the completed workbook.
+6. Review the import preview and select Save. Only valid, uniquely matched rows are written.
+
+Do not copy a new database or PDF folder from the update package. The update package is intentionally code-only.

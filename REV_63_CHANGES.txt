@@ -1,0 +1,26 @@
+ShadComm Systems Integrator — REV 63
+Performance Update
+
+What was improved
+-----------------
+• Digital Library now renders 60 product cards at a time instead of creating
+  every product card on the first screen.
+• Previous / Next paging was added to the Digital Library.
+• Digital Library search is debounced so the page does not rebuild on every
+  keystroke.
+• Product job history is indexed and cached by Part Number / Maker instead of
+  scanning every BOM, Quote, and Ordering line repeatedly for every card.
+• Adding or removing a product in an active BOM redraws the current BOM without
+  downloading the complete application database and rebuilding the whole page.
+• Saving BOM quantities, adding Quote items, adding Purchasing items, and
+  applying the Digital Library cart use the same lighter active-workspace path.
+• Shop drawing upload, replacement, and deletion update the current product
+  locally after the server confirms the file operation instead of forcing a
+  complete application reload.
+
+Data safety
+-----------
+• This is a code-only update.
+• shop-data.json, history, and shop-drawings are not included or replaced.
+• PDF files are still loaded only when viewed or exported.
+• Existing workflow and direct product-entry features remain available.

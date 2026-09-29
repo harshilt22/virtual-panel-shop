@@ -1,0 +1,8 @@
+ShadComm Virtual Shop — REV 27
+- Quote Engineering/Service Rate / Unit Cost is preset from Admin Settings.
+- Admin Settings now clearly provides Rate / Unit Cost and Markup % values.
+- Purchasing formula corrected: Order Qty = Required - Shop Supplies - From Inventory.
+- Shop Supplies and Inventory quantities now carry into Ordering and Receiving details.
+- Vendor ordering lists can be copied as plain text after vendor assignment.
+- Vendor ordering Excel export creates separate worksheets per vendor.
+- Ordering Excel includes Required, Shop Supplies, From Inventory, Order Qty, Receiving qty, and initials.

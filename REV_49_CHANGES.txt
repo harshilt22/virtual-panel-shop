@@ -1,0 +1,9 @@
+SHADCOMM VIRTUAL SHOP — REV 49
+
+- Changed the Digital Library verification badge to a compact “✓ Verified” pill.
+- Added quantity prompt immediately after clicking Add to Cart.
+- Cart quantities remain editable after adding products.
+- Added BOM Product Technical Datasheets section for attaching one or more PDF shop drawings to each BOM product.
+- Attached PDFs are stored on the matching Digital Library product and shown as a datasheet count in the library.
+- Added Download Datasheet ZIP for BOMs; it packages each attached PDF once with Maker and Part Number in the filename.
+- Preserved existing BOM Excel/PDF exports, drag-and-drop ordering, direct product entry, and shared workflow behavior.

@@ -1,0 +1,5 @@
+SHADCOMM VIRTUAL SHOP — REV 51
+
+- Replaced the browser prompt quantity entry with a small inline quantity field beside every Add to Cart button.
+- Add to Cart now adds the exact quantity entered in that field and still allows quantity edits in the cart.
+- Preserved the compact verification badge, Part Number datasheet reuse, PDF viewing, and Export Shop Drawings ZIP workflow.

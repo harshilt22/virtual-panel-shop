@@ -1,0 +1,6 @@
+ShadComm Virtual Shop - REV 34
+- Fixed Vendor Ordering PDF export only.
+- Vendor PDF now uses a direct, simplified PDF generation path.
+- Includes Vendor, Part Number, Description, Maker, and final Order Qty.
+- Uses saved vendor assignments and only positive Order Qty lines.
+- Tested with a two-vendor order and successfully rendered the generated PDF.

@@ -1,0 +1,9 @@
+REV 54 - SHOP DRAWING ZIP AND LIBRARY REUSE
+
+- Corrected the ZIP end-of-directory record so exported Shop Drawings ZIP files open normally.
+- Added UTF-8 ZIP filename support.
+- Existing product drawings are reused automatically by Part Number in future BOMs.
+- Designer upload is shown only when the product has no drawing in the Digital Library.
+- Saved drawing records now use the Product Description as their database name.
+- Shop Drawing PDF filenames inside the ZIP use the Product Description, with a numeric suffix only for duplicate filenames.
+- Existing drawings are migrated to the new description-based naming format.

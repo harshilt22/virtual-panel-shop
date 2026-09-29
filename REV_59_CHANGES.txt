@@ -1,0 +1,7 @@
+REV 59 — Job Management and Project Workbook Export
+
+- Jobs now supports Admin-only Edit Job Details, including Job Number, Panel / Package Name, Quote Project, BOM / Job Name, Customer / Project, Client Name, contact information, address, scope, and notes.
+- Job Number changes propagate through Quotes, BOMs, Ordering, Receiving, Job Materials, Activity, Notifications, and stored product job history. Duplicate Job Numbers are rejected.
+- Jobs now has Export Excel. It downloads one project workbook containing Job Summary, Quotes, BOM, Purchasing, Ordering, Receiving, and Job Materials when applicable.
+- Jobs now has Admin-only Delete. Deletion removes only project workflow records and preserves Digital Library products and shop drawings.
+- Existing PDF shop-drawing storage, Digital Library verification, product editing, and existing individual Excel/PDF exports remain unchanged.

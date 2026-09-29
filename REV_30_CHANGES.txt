@@ -1,0 +1,6 @@
+ShadComm Virtual Shop — REV 30
+- Fixed New Quote creation path.
+- New Quote automatically starts with a Q-series reference.
+- Save Quote now posts a complete quote object with a unique ID and opens the Quote Builder after creation.
+- Added visible error message if quote creation fails.
+- Quote workflow text updated for Q-series -> J-series handoff.

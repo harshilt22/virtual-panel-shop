@@ -1,0 +1,11 @@
+ShadComm Virtual Shop - REV 33
+- All report exports rebuilt to work locally without internet.
+- Excel reports now generate real .xlsx workbooks directly in the browser.
+- PDF reports now download directly; no pop-up window or print dialog required.
+- Quote Excel/PDF.
+- BOM Excel/PDF.
+- Ordering Excel/PDF with Shop Supplies, From Inventory, Order Qty, Vendor, Receiving, Balance and Initials.
+- Vendor Ordering Excel with Summary plus one sheet per vendor.
+- Vendor Ordering PDF added.
+- Receiving Excel/PDF with vendor and receiver initials.
+- Full export button-handler audit.

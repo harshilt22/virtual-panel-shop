@@ -1,0 +1,14 @@
+ShadComm Virtual Shop REV 10
+
+Purchaser released-BOM management added.
+
+- Purchaser can open an Approved/Released BOM with "Manage Released BOM".
+- Designer BOM quantities remain locked and unchanged.
+- Purchaser can assign Shop Supply quantities per BOM line.
+- Shop Supply reduces physical inventory and creates Job Materials allocations for Receiver.
+- Purchaser can add purchasing-only extras from the Digital Library.
+- Purchasing extras do not alter the Designer's released BOM.
+- Remaining to Order = Required Qty - Shop Supply.
+- Release to Ordering sends only Remaining to Order quantities to vendor orders.
+- If everything is covered by shop stock, no vendor PO is created.
+- Same Job Number continues through BOM, Shop Materials, Ordering, and Receiving.

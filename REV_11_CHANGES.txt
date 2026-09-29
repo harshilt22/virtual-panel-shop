@@ -1,0 +1,12 @@
+SHADCOMM VIRTUAL SHOP — REV 11
+
+USER EXPERIENCE UPDATE
+- Digital Library is closed/collapsed by default.
+- Open the Digital Library page, then double-click the Library card to reveal products.
+- A Close Library button hides it again.
+- Job-number links can still open the library directly because the user explicitly requested that job/product search.
+- Quote/BOM builders still use the Digital Library intentionally for product selection.
+- Cleaner page titles, role badge, panels, navigation emphasis and visual spacing.
+- No change to shared shop-data.json structure or workflow data.
+
+Upgrade: keep your existing shop-data.json and replace the program files.

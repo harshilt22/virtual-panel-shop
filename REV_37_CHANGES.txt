@@ -1,0 +1,9 @@
+ShadComm Virtual Shop - REV 37
+- Shared material request available from Jobs and Job Explorer for all shop roles.
+- Requests update the live BOM even during Ordering or Receiving.
+- Designer can continue editing the BOM after release; changes sync to the active ordering sheet.
+- New requested lines are preserved in the receiving workflow and remain visible to Purchaser for vendor assignment.
+- Manual Inventory now includes a Note field and displays notes in Inventory.
+- Admin Settings now includes time rollback buttons for 30 min, 1 hr, 2 hr, 3 hr and 24 hr.
+- Server automatically creates database snapshots before every write and restores the newest snapshot from before the selected time window.
+- All REV 36 files preserved, including Excel import/export and PDF reporting.

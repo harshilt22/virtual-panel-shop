@@ -1,0 +1,12 @@
+REV 58 - SCALABLE SHOP DRAWING STORAGE
+
+- Existing embedded PDF shop drawings are migrated automatically on first startup.
+- PDF bytes are stored in the shop-drawings folder, while shop-data.json keeps only product/document metadata.
+- The normal application load now downloads the small product database without loading every PDF into memory.
+- PDFs are fetched only when a user views one or exports a BOM shop-drawing ZIP.
+- New PDF uploads from BOMs and the Digital Library use the same separate-file storage.
+- Existing Digital Library PDF view, replace, add, delete, automatic Part Number reuse, and description-based ZIP filenames are preserved.
+- A failed database migration no longer resets the existing database; the server stops and leaves the source file unchanged.
+- Database saves now use a temporary file and retain a valid shop-data.json.bak recovery copy, preventing interrupted writes from leaving an incomplete JSON database.
+- If the main database is incomplete, the server automatically tries the valid backup or latest valid history snapshot before stopping.
+- Use shop-data.json and shop-drawings together; make a backup before replacing an older revision.

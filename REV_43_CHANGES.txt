@@ -1,0 +1,12 @@
+ShadComm Virtual Shop - REV 43
+UX / Graphics update:
+- Modernized header, navigation, cards, tables, forms, modals and Digital Library product cards.
+- Admin can configure Company Name, Application/Page Title and upload/remove a company logo.
+- Branding applies to browser title, welcome screen and application header.
+- Admin can set default product markup by Maker.
+- New Quote products automatically receive the Maker markup and Digital Library cost.
+- Digital Library Add/Edit Product form reorganized into Product Identity, Technical, Commercial, and History sections.
+- Maker autocomplete uses existing Digital Library Makers.
+- Product form displays Maker default markup and preferred Vendor.
+- Duplicate Maker + Part Number is blocked.
+- Existing REV 42 workflows preserved.

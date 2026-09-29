@@ -1,0 +1,85 @@
+ShadComm Virtual Shop — REV 66
+================================
+
+This is a CODE-ONLY revision. It intentionally does not include:
+- shop-data.json
+- history/
+- shop-drawings/
+- any existing PDF or uploaded project data
+
+New common verified-import workflow
+-----------------------------------
+The Digital Library import, Client BOM import, and Client Purchase Slip import
+now use the same reviewed product format:
+
+  Job Number
+  Product Description
+  Maker
+  Part Number
+  Qty
+  Current Rating
+  Voltage Rating
+  Price
+  Preferred Vendor
+  Purchase Slip Number
+
+The importer reads Excel, XLSX, XLS, and CSV files and accepts common alternate
+column names such as Description, Make, Manufacturer, Model, Part No, Quantity,
+Unit Cost, Supplier, and Vendor.
+
+Nothing is written until the review window is confirmed. Every row can be
+edited before saving:
+- Description
+- Maker
+- Part Number
+- Quantity
+- Current Rating
+- Voltage Rating
+- Unit Price
+- Preferred Vendor
+- Save action: update/save, keep existing library details, or skip
+
+Part Number remains the product match key. Existing products keep their prior
+description as an alternate description when a reviewed import changes it.
+Preferred Vendor choices come from registered Vendors. Existing Job Number
+history is retained when a Job Number column is included.
+
+Client BOM -> Purchasing
+------------------------
+Jobs, BOMs, and Ordering now provide:
+
+  Import Client BOM -> Purchasing
+
+The user enters the Job Number and Job Profile details, uploads the client BOM,
+reviews every product, and confirms once. The system then creates:
+- the Job Profile details on the imported BOM
+- verified/updated Digital Library products
+- a Client Imported BOM
+- a purchasing sheet in Vendor Assignment status
+
+The normal vendor workflow is preserved. Maker-to-Vendor mappings are used when
+available, the Purchaser can override vendors, complete ordering, and release
+the sheet to Receiving.
+
+Client Purchase Slip -> Receiving
+---------------------------------
+Jobs, BOMs, and Ordering now provide:
+
+  Import Client Purchase Slip -> Receiving
+
+The user selects or enters an existing Job Number, uploads the client purchase
+slip/material list, reviews every product, and confirms once. The system then:
+- verifies/updates the Digital Library products
+- creates a separate Client Supplied Purchase Slip order
+- marks it Released to Receiver immediately
+- leaves normal vendor purchasing records separate
+
+The separate receiving sheet is protected from later rebuilding of the normal
+combined vendor purchasing sheet.
+
+Other
+-----
+- A Common Import Template button downloads a starter CSV.
+- Client-supplied and vendor-purchased material can coexist on one Job.
+- Existing PDFs/shop drawings and product documents are preserved.
+- Existing data and PDFs are not part of the REV 66 package.

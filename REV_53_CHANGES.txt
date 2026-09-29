@@ -1,0 +1,8 @@
+REV 53 - DIGITAL LIBRARY MATERIAL ADD FIX
+
+- Digital Library cart buttons now carry the product ID, Part Number, Maker, workflow, and record ID directly.
+- Added a direct guarded Add to Cart handler with delegated fallback handling.
+- Preserved the inline quantity field beside the Add to Cart button.
+- Apply Cart now initializes missing Quote/BOM item arrays before saving.
+- Added clear error handling for missing Quote, BOM, or product records.
+- Updated the visible application revision to REV 53.

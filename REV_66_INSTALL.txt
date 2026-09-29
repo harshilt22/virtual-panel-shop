@@ -1,0 +1,48 @@
+ShadComm Virtual Shop — REV 66 Install
+========================================
+
+This package is code-only.
+
+Replace only these two files in the existing REV 65 application folder:
+
+  index.html
+  server.js
+
+Keep the existing files and folders in place:
+
+  shop-data.json
+  history/
+  shop-drawings/
+
+Do not replace your existing shop-data.json or shop-drawings folder.
+
+Start the application with the existing START VIRTUAL SHOP.bat file.
+
+How to use
+-----------
+
+1. Open Jobs, BOMs, or Ordering.
+2. For material that will be purchased:
+   - click Import Client BOM -> Purchasing
+   - enter Job Number and Job Profile details
+   - choose the client Excel/CSV file
+   - review/edit every row
+   - click Verify & Save
+   - assign vendors, complete ordering, and release to Receiver normally
+3. For material already purchased by the client:
+   - click Import Client Purchase Slip -> Receiving
+   - select or enter the existing Job Number
+   - choose the purchase slip/material list
+   - review/edit every row
+   - click Verify & Save
+   - the separate order will already be visible to Receiver
+4. For a direct Digital Library import:
+   - open Digital Library
+   - click Import Excel BOM
+   - review/edit every product
+   - click Verify & Save
+
+The Common Import Template button downloads the starter CSV format. Part
+Number and Maker are required during verification. Preferred Vendor is selected
+from registered Vendors; a Client Supplied vendor is available only for the
+direct receiving workflow.

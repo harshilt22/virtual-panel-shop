@@ -1,0 +1,12 @@
+DATABASE RECOVERY
+
+The message "Unexpected end of JSON input" means shop-data.json was interrupted while being written or copied.
+
+For the supplied REV58 package:
+1. Stop START VIRTUAL SHOP.bat.
+2. Rename the damaged shop-data.json to shop-data.json.corrupt.
+3. Copy the valid shop-data.json from the REV58 APP ZIP into the virtual-shop folder.
+4. Keep the existing shop-drawings folder; do not delete it.
+5. Start START VIRTUAL SHOP.bat again.
+
+The repaired server also creates shop-data.json.bak and uses atomic saves to prevent this problem in future.

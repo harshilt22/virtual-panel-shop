@@ -1,0 +1,12 @@
+ShadComm Virtual Shop — REV 65
+
+NOTIFICATION MANAGEMENT UPDATE
+
+- Added a Notifications control at the top of the left navigation.
+- Shows the total unread notification count for the current role.
+- Added one-click "Mark all as read" for the current role.
+- Opening a section now marks that section's notifications read with one bulk request instead of one request per notification.
+- Notifications for other roles remain unchanged.
+- Notification history is preserved; only the read status changes.
+- Existing shop-data.json, history, and shop-drawings are not included or changed.
+

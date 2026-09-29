@@ -1,0 +1,9 @@
+REV 45
+- Fixed Digital Library Maker entry/editing.
+- Added a proper Select Existing Maker dropdown populated from the Digital Library.
+- Added a separate editable Maker Name field.
+- Selecting an existing Maker fills the editable field automatically.
+- Choosing "+ Add / Type New Maker" clears and focuses the Maker Name field.
+- Manually typing a Maker updates the selection state and Maker defaults.
+- Preferred Vendor and Maker markup defaults continue to update from the chosen/typed Maker.
+- All REV 44 functionality preserved.

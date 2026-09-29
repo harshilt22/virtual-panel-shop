@@ -1,0 +1,15 @@
+ShadComm Virtual Shop - REV 05
+
+1. Website renamed to ShadComm Virtual Shop.
+2. Estimator selecting a product from Shop Inventory immediately reserves that quantity for the Quote Job Number.
+3. Reserved quantity is deducted from available Shop Inventory.
+4. Removing/reducing an Inventory quote item returns the reserved quantity to Shop Inventory.
+5. Added shared Job Materials / Shop Allocations records.
+6. Receiver can see Job Number, product, allocated quantity and shop location.
+7. Receiver can update material location, notes and status:
+   - Allocated - Awaiting Shop Placement
+   - Placed in Job Materials
+   - Issued to Panel Build
+8. Buyer can view Job Materials allocations.
+9. Estimator Job Status shows allocated shop materials and Receiver placement status.
+10. Existing shop-data.json files are automatically upgraded with an allocations section.

@@ -1,0 +1,9 @@
+ShadComm Virtual Shop - REV 08
+
+- New welcome landing screen shown whenever the site is opened/refreshed.
+- Greeting asks: Who are you today?
+- Role choices: Admin, Purchaser, Estimator, Designer, Reciever, Client.
+- Purchaser uses the existing Buyer permissions/workflow internally.
+- Reciever uses the existing Receiver permissions/workflow internally.
+- Client is marked Coming Soon and displays a friendly development/thank-you message.
+- Header updated to REV 08 and role selector uses the new role names.

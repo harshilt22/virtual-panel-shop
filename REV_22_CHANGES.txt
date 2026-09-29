@@ -1,0 +1,14 @@
+SHADCOMM VIRTUAL SHOP — REV 22
+
+JOB EXPLORER
+- Added Jobs to the left navigation for all operational roles.
+- Search by Job Number, project/name, Quote number, BOM number, or PO/order number.
+- Open a Job and explore four tabs in one place:
+  1. Quotes
+  2. BOMs
+  3. Ordering Sheets
+  4. Receiving Report
+- Job view shows counts and received/ordered progress.
+- Receiving Report shows vendor, PO, part number, ordered, received, balance, and receiving notes.
+- Receiving Report can be exported to CSV by Job Number.
+- Existing Quote/BOM/Ordering records remain unchanged; this is a job-centered explorer view.

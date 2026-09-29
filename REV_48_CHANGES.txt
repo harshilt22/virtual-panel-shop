@@ -1,0 +1,6 @@
+SHADCOMM VIRTUAL SHOP — REV 48
+
+- Added a verified Part Number badge in the Digital Library cart when the same product is used on more than one Job.
+- Quote prices entered by the user are now recorded back to the matching Digital Library product for future quotes.
+- Current Rating is normalized and displayed with the unit A, including existing products when loaded and edited.
+- Preserved the existing Digital Library cart, direct product entry, drag-and-drop BOM ordering, and shared Quote → BOM → Ordering → Receiving workflow.

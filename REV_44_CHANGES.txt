@@ -1,0 +1,8 @@
+REV 44
+- Rebuilt Digital Library as an online-shopping style product catalog.
+- Large search header, Maker sidebar filters, product cards, stock/spec/vendor/price display and product counts.
+- Quote, BOM and Purchasing inline Digital Library pickers now use the same shopping-card experience.
+- Admin Engineering / Service names are fully customizable.
+- Admin can rename existing service defaults, add new services, remove defaults, and fix Rate + Markup.
+- Existing quotes keep their saved service lines when an Admin default is removed.
+- REV 43 branding, Maker markups and all REV 42 workflow features preserved.

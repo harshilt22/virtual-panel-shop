@@ -1,0 +1,6 @@
+ShadComm Virtual Shop — REV 25
+- Repaired missing BOM and purchasing button handlers introduced by REV 24 patching.
+- Verified onclick handlers resolve to real functions.
+- Admin Settings now clearly exposes Hourly Rate / Unit Rate and Markup % for all engineering/service categories.
+- Quote users adjust Hours / Qty; Admin controls service Rate and Markup defaults.
+- Retains REV 24 notifications, Q-to-J workflow, Receiver initials, Job activity history, Shop Supplies reporting, and Ordering Excel export.

@@ -1,0 +1,19 @@
+ShadComm Systems Integrator — REV 63 Installation
+
+Replace only these two application files:
+• index.html
+• server.js
+
+Keep your existing files unchanged:
+• shop-data.json
+• history\
+• shop-drawings\
+• START VIRTUAL SHOP.bat
+• STOP VIRTUAL SHOP.bat
+
+Start the application normally. The Digital Library will display 60 products at
+a time. Use Search, Maker filters, or Previous / Next to move through the
+library.
+
+During BOM work, product additions and quantity saves now stay inside the active
+BOM window and avoid a complete database reload after every action.

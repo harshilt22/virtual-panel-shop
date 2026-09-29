@@ -1,0 +1,14 @@
+SHADCOMM VIRTUAL SHOP - REV 58 INSTALLATION
+
+The application and PDF library are split into multiple ZIP files so each download remains valid.
+
+1. Extract ShadComm_Virtual_Shop_REV_58_APP.zip.
+2. Open the extracted virtual-shop folder.
+3. Extract every ShadComm_Virtual_Shop_REV_58_SHOP_DRAWINGS_XX.zip directly into that virtual-shop folder.
+   Each drawing ZIP contains a shop-drawings folder; all four parts must be extracted there.
+4. Keep shop-data.json and the complete shop-drawings folder together.
+5. Double-click START VIRTUAL SHOP.bat.
+6. Open http://localhost:3500 if it does not open automatically.
+
+The included shop-data.json already contains the migrated product metadata for the supplied REV57 data.
+Do not delete or rename the shop-drawings folder. Future PDF uploads will be stored there automatically.

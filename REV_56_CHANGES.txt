@@ -1,0 +1,6 @@
+REV 56 - COMPANY LOGO DISPLAY FIX
+
+- Fixed Admin Settings branding save so an uploaded logo immediately updates the live application state.
+- Added a saved-logo preview in Admin Settings.
+- Logo now remains visible in the application header and welcome screen after upload and re-render.
+- Preserved the existing shop-data.json and Quote → BOM → Ordering → Receiving workflow.

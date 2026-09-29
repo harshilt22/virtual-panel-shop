@@ -1,0 +1,10 @@
+ShadComm Virtual Shop - REV 39
+
+- Digital Library Excel import cleans description capitalization and common electrical spelling mistakes; cleaned descriptions remain editable in the preview.
+- Existing ALL-CAPS library descriptions encountered during import are normalized to readable title-style formatting.
+- Quote Builder and BOM Builder now have Quick Add Product fields for Description, Maker and Part Number. Quick-added products automatically save to Digital Library.
+- Added optional Multiply All Quantities tool for identical multi-panel builds. Non-identical panel jobs can continue using individual line quantities without forced multiplication.
+- BOM rows are draggable and their saved order is used by BOM Excel/PDF exports.
+- Admin delete controls added for Jobs, Quotes, BOMs and Ordering Sheets. Job delete removes linked project workflow records after confirmation.
+- Generated XLSX workbooks now explicitly use Calibri 11 as the workbook font.
+- All REV 38/REV 37 working functions retained, including Excel import loader, PDF/Excel reports, receiving-stage material requests, Inventory Notes and time rollback.

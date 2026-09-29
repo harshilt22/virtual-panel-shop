@@ -1,0 +1,7 @@
+REV 57 - TOP-LEFT HEADER LOGO FIX
+
+- Replaced the header logo HTML injection with a dedicated visible image element in the top-left header.
+- Selecting a logo now shows it in the header immediately, before saving.
+- Saving branding reads the selected file directly when necessary and persists it to the shared settings.
+- Added compatibility for logos saved under older branding/settings field names.
+- Preserved the existing shop-data.json and Quote → BOM → Ordering → Receiving workflow.

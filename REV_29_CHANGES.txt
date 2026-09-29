@@ -1,0 +1,5 @@
+ShadComm Virtual Shop — REV 29
+- Cleaned duplicate JavaScript function declarations across the app.
+- Re-audited every inline onclick/oninput/onchange/onsubmit handler.
+- Added defensive UI error trapping so broken actions no longer fail silently.
+- Retains REV 28 purchasing, markup, Shop Supplies, vendor Excel, and workflow features.

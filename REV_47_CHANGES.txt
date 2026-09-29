@@ -1,0 +1,11 @@
+SHADCOMM VIRTUAL SHOP — REV 47
+
+- Added editable project, client, scope, address, contact, email and notes fields for Quotes and new BOMs.
+- Added Edit Job / Client Details in Quote and BOM builders.
+- Added shared Job Details update endpoint; changes propagate to Quotes, BOMs, Purchasing, Ordering, Receiving and Job Materials records.
+- Added fixed Tax Rate (%) in the single-window Admin Settings page.
+- Fixed quote totals and quote exports to include the configured tax.
+- Product descriptions are now saved exactly as entered and synchronized by Maker + Part Number across active workflow records.
+- Preferred Vendor in the Digital Library product editor is now a dropdown populated from registered vendors.
+- Replaced Digital Library imports inside Quote, BOM and Purchasing workflows with a quantity-editable cart.
+- Preserved manual/direct product entry and existing BOM drag-and-drop ordering.

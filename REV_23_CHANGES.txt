@@ -1,0 +1,8 @@
+ShadComm Virtual Shop — REV 23
+
+- Quote, BOM, Ordering Sheet and Receiving Report export to Excel (.xlsx) and printable PDF.
+- Added Admin Settings page for engineering/service markup defaults.
+- Engineering/service markups are locked for non-Admin quote users.
+- Hours / Qty and Rate / Unit Cost remain editable during quoting.
+- Digital Library price is Admin-controlled.
+- Quote material Unit Cost remains editable per quote and does not overwrite Digital Library price.

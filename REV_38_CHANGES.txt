@@ -1,0 +1,7 @@
+ShadComm Virtual Shop - REV 38
+- Restored clear NEW vs EXISTING classification in Digital Library Excel import preview.
+- Added explicit Status column for every imported part.
+- Existing parts again show description-handling choices: Keep both, Keep old, Use new, Skip.
+- New parts clearly show that they will be added to the Digital Library.
+- Import summary now shows counts of NEW and EXISTING products.
+- All REV 37 files and features preserved.

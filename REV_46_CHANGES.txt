@@ -1,0 +1,6 @@
+REV 46
+- Restored Delete button on Digital Library shopping cards.
+- Delete is available to Admin and Reciever, matching the previous Digital Library permissions.
+- Delete asks for confirmation before removing the product.
+- Deleting a Digital Library product removes only the Library record; existing Quotes, BOMs and Orders retain their saved lines.
+- REV 45 Maker selector/editing and all existing functionality preserved.

@@ -1,0 +1,9 @@
+ShadComm Virtual Shop — REV 24
+- Fixed Ordering Sheet Excel export.
+- Receiver initials added to receiving.
+- Job Status includes activity/change history.
+- Job View includes Shop Supplies as its own fulfillment source.
+- Notification badges added for workflow handoffs.
+- Quote stage remains Q-series; awarded work gets new J-series Job Number.
+- Admin controls engineering/service Rates and Markups.
+- Quote users adjust service Hours / Qty only.

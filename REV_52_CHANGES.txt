@@ -1,0 +1,7 @@
+REV 52 - CART BUTTON RELIABILITY FIX
+
+- Replaced inline Add to Cart execution with a delegated handler on each Digital Library window.
+- Cart results continue working after search, clear, and result re-render actions.
+- Added a compact quantity field immediately beside every Add to Cart button.
+- Quantity is read from the same product card and validated before the product is added.
+- Set cart buttons to type=button to prevent accidental form submission.

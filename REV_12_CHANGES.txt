@@ -1,0 +1,10 @@
+ShadComm Virtual Shop REV 12
+
+- Fixed Purchaser > Manage Released BOM (missing function restored).
+- Purchaser can allocate Shop Supply without changing Designer BOM quantities.
+- Purchaser can add purchasing-only extras from Digital Library.
+- Quote materials now support editable Extended Cost and Markup %.
+- Quote includes editable Engineering/Labour/Services: Designing, Layout, Labeling, Shop Labour, Commissioning, Travel, Meals, Miscellaneous, plus custom rows.
+- Quote total calculates material selling price + service selling price.
+- Product pickers inside Quote, BOM and Purchaser workspace are collapsed by default; double-click Digital Library card to reveal products.
+- Main Digital Library page remains directly usable and is no longer hidden.

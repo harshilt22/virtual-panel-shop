@@ -1,0 +1,5 @@
+SAFE SERVER UPDATE
+
+Extract this ZIP directly into your existing virtual-shop folder and allow server.js, index.html, and the BAT files to be replaced.
+
+This update does not include shop-data.json, so your recovered database and shop-drawings folder remain in place.

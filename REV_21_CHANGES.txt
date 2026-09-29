@@ -1,0 +1,8 @@
+SHADCOMM VIRTUAL SHOP — REV 21
+
+PRODUCT PICKER FIX
+- Digital Library product picker no longer stays closed after selecting one product.
+- Quote: after Add to Quote, the product picker reopens automatically.
+- BOM: after Add to BOM, the product picker reopens automatically.
+- Purchaser: after Add to Purchaser Plan, the product picker reopens automatically.
+- User can continue adding products and manually press Close when finished.

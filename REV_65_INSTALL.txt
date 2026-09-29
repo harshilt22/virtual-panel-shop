@@ -1,0 +1,20 @@
+ShadComm Virtual Shop — REV 65 Installation
+
+Replace only these application files:
+
+- index.html
+- server.js
+
+Keep your existing files unchanged:
+
+- shop-data.json
+- history\
+- shop-drawings\
+- START VIRTUAL SHOP.bat
+- STOP VIRTUAL SHOP.bat
+
+After replacing the two application files, start the shop normally.
+
+The left navigation will show the unread total for the current role. Click
+"Mark all as read" once to clear all of that role's notification badges.
+Notifications remain stored in the database for history and auditing.

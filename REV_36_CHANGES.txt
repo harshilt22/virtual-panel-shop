@@ -1,0 +1,6 @@
+ShadComm Virtual Shop - REV 36
+- Fixed Excel FILE LOADER used for importing old BOMs and Inventory.
+- REV 33 removed the external XLSX reader while making Excel exports self-contained; that accidentally broke Excel imports.
+- Restored the XLSX import reader with jsDelivr primary and unpkg fallback.
+- Existing self-contained Excel exports and PDF reports remain unchanged.
+- REV 35 manual Job Number prompt on Award Quote remains unchanged.

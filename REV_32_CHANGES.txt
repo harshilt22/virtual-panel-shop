@@ -1,0 +1,7 @@
+ShadComm Virtual Shop — REV 32
+- Fixed vendor assignment persistence.
+- Only products with Order Qty > 0 are shown for vendor assignment.
+- Vendor selection is saved back to the exact order line.
+- Ordering page now immediately displays Vendor Allocation after saving.
+- Vendor Lists and Vendor Excel now use only selected, vendor-assigned, positive Order Qty lines.
+- Ordering Complete ignores Shop Supplies / Inventory-only lines.

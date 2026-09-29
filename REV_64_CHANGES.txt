@@ -1,0 +1,15 @@
+ShadComm Virtual Shop — REV 64
+
+BOM / PURCHASING / ORDERING CONSISTENCY FIX
+
+- Purchasing plans are rebuilt from the current Designer BOM whenever they are opened, saved, released, or synchronized.
+- Old non-extra purchasing lines that are no longer present in the BOM are removed from the plan.
+- Explicit Purchasing Extra lines are preserved and clearly labeled as outside the Designer BOM.
+- A single-BOM Ordering Sheet is rebuilt from the current purchasing plan, so removed BOM products no longer remain on the order.
+- Combined Job Ordering Sheets are rebuilt from all current released BOM plans and no longer retain obsolete lines.
+- Existing vendor assignments, selections, notes, and receiving quantities are preserved for matching products.
+- The combined purchasing release action now uses an idempotent release path and confirms that the Ordering Sheet was created.
+- Legacy per-BOM purchasing release is also routed through the safer order creation path.
+- BOM changes made after purchasing has started continue to update the active Ordering Sheet.
+- Existing shop-data.json, history, and shop-drawings are not included or changed.
+

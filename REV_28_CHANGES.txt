@@ -1,0 +1,7 @@
+ShadComm Virtual Shop — REV 28
+- Estimator Quote Engineering/Service Markup now loads from Admin preset and participates in quote calculations.
+- Rate / Unit Cost and Markup % are both preset from Admin and shown read-only in quote; Hours / Qty remains editable.
+- Shop Supplies are preserved in order records and shown in Ordering Sheet plus Ordering Excel.
+- Order Qty calculation remains Required - Shop Supplies - From Inventory.
+- Vendor Excel rebuilt: Summary worksheet plus one worksheet per assigned vendor, with correct Order Qty.
+- Duplicate function cleanup prevents old logic from overriding new logic.

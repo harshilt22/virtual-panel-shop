@@ -1,0 +1,8 @@
+REV 55 - DIGITAL LIBRARY PDF EDITING AND VERIFIED BADGE
+
+- Added Edit PDFs to Digital Library product cards for Admin, Receiver, and Designer roles.
+- Added View PDF, Replace PDF, Add PDF, and Delete PDF controls.
+- Replacements preserve the product Part Number and update the stored shop drawing.
+- Product Description remains the automatic drawing name and ZIP filename basis.
+- Added the compact Verified badge to the main Digital Library when a Part Number is used on more than one job.
+- Preserved the shared shop-data.json and Quote → BOM → Ordering → Receiving workflow.

@@ -1,0 +1,12 @@
+ShadComm Virtual Shop REV 09
+
+SHARED DATA / ROLE SYNC FIX
+- All operational roles use the same server-side shop-data.json database.
+- Switching roles now reloads /api/data from the server immediately.
+- Search state is cleared when changing roles so an old filter cannot make products appear missing.
+- Estimator and Designer can now VIEW Shop Inventory.
+- Estimator and Designer can VIEW the shared Digital Library.
+- Inventory is view-only for Estimator/Designer; they cannot reserve/remove stock.
+- Quote and BOM material selection remains Digital Library based.
+- Purchaser remains responsible for deciding which approved BOM quantities come from shop stock and which must be ordered.
+- Dashboard displays a LIVE SHARED SERVER DATA notice.

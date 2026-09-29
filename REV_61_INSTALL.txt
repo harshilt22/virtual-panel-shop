@@ -1,0 +1,11 @@
+REV 61 — Code-only installation
+
+1. Stop the current Virtual Shop server.
+2. Make a backup copy of the existing application folder.
+3. Copy only index.html and server.js from this update into the existing application folder.
+4. Keep the existing shop-data.json, history folder, shop-drawings folder, and your existing start/stop files.
+5. Start the server normally.
+
+After installation, open Vendors, edit or add a vendor, select the required Makers, and save. The matching Digital Library products will update automatically.
+
+Do not copy a new database or PDF folder from the update package. This update is intentionally code-only.

@@ -1,0 +1,6 @@
+ShadComm Virtual Shop - REV 41
+- Added Admin-only Edit Job Number button on Jobs page.
+- Job Number edits are propagated through Quotes, BOMs, Ordering, Receiving/Orders, Job Materials/Allocations, Activity and Notifications.
+- Duplicate Job Numbers are blocked before save.
+- Server creates a rollback snapshot before changing a Job Number.
+- All REV 40 files and working features preserved.

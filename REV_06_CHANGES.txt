@@ -1,0 +1,22 @@
+SHADCOMM VIRTUAL SHOP - REV 06
+
+Workflow correction:
+1. Estimator quotes ONLY from the Digital Library.
+2. Designer builds/updates BOM ONLY from the Digital Library.
+3. Estimator/Designer do NOT reserve or consume physical shop inventory.
+4. Approved BOM transfers to Buyer Ordering using the same Job Number.
+5. Buyer uses "Check Shop Stock" on each ordering sheet.
+6. Buyer can assign part of each BOM quantity from physical shop inventory.
+7. Shop-assigned quantity is deducted from inventory and creates a Job Materials allocation for Receiver.
+8. Remaining to Order = BOM Qty - From Shop.
+9. The original BOM quantity is NEVER reduced or deleted by shop-stock allocation.
+10. Receiver sees Buyer allocations in Job Materials and can mark physical location/status.
+11. Vendor receiving applies only to Remaining to Order quantities.
+
+Example:
+BOM requires 10 contactors.
+Buyer finds 4 in shop.
+BOM remains 10.
+From Shop = 4.
+Remaining to Order = 6.
+Receiver sees the 4 shop contactors allocated to that Job Number.

@@ -1,0 +1,10 @@
+ShadComm Virtual Shop - REV 40
+- Removed identical-panel quantity multiplier from Designer BOM.
+- Designer BOM quantities always remain the quantities shown on the drawing / one panel design.
+- Added Number of Identical Panels multiplier to Purchaser / Ordering Plan only.
+- Purchasing Required Qty = BOM Qty per Panel x Panel Quantity.
+- Shop Supplies and From Shop Inventory are deducted from the multiplied purchasing total; the remainder becomes vendor Order Qty.
+- Purchasing Extras remain independently editable and are not automatically multiplied.
+- Ordering sheet stores the panel multiplier and BOM Qty / Panel for traceability.
+- Ordering/Vendor Excel reports now show BOM Qty / Panel, Panel Quantity, Purchasing Required, and Order Qty.
+- Existing REV 39 features are preserved.
